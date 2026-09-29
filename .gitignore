@@ -1,0 +1,16 @@
+# Secrets / local config - never commit
+vt_api_key.txt
+internal_ranges.txt
+.env
+
+# Scan inputs and results (contain real IPs)
+ips.txt
+*.csv
+output/
+.cache/
+
+# Browser profile (cookies/session) and Python env
+.browser_profile/
+.venv/
+__pycache__/
+*.pyc

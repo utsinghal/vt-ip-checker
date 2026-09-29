@@ -1,0 +1,4 @@
+# Extra ranges to treat as INTERNAL: never scanned, never blocklisted. One IP or CIDR per line.
+# Private/reserved ranges (10/8, 172.16/12, 192.168/16, 127/8, 100.64/10, fe80::/10 ...) are always excluded.
+# Add your organisation's own public IPs / ranges here, e.g.:
+# 203.0.113.0/24
